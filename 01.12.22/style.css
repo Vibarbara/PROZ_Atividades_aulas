@@ -1,0 +1,25 @@
+.home_header {
+  background: orange;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.home_header_navbar {
+  display: flex;
+  gap: 16px;
+}
+
+.home_header_navbar_itens {
+  list-style: none;
+  color: black;
+}
+
+.home_header_navbar_itens:hover, a:hover {
+  color: white;
+  background: gray;
+}
+
+
+
+
