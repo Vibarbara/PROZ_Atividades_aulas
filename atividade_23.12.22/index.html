@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Carrinho de compras</title>
+</head>
+<body>
+  <main class="container">
+      <h1>minha cesta</h1>
+      <section class="titulos">
+        <h2>produto</h2>
+        <h2>detalhes</h2>
+        <h2>qdade</h2>
+        <h2>preço</h2>
+      </section>
+      <hr>
+      <section id="carrinho">
+        <div class="item-carrinho" id="produto-01">
+          <div class="capa">
+            <img src="assets/lancheira_frente.png">
+          </div>
+          <div>
+            <h3>Lancheira Térmica</h3>
+            <p>Lancheira térmica artesanal, confeccionada em jeans e forro interno em material impermeável</p>
+          </div>
+          <div class="qdade-itens">
+            <button id="btn-subtrair-produto-01">-</button>
+            <input id="quantidade-produto-01" type="number" value="0" min="0">
+            <button id="btn-adicionar-produto-01">+</button>
+          </div>  
+          <div>
+            <p id="preco">R$ 45,90</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="section-subtotal">
+        <h2>Subtotal</h2>
+        <section id="subtotal">
+          <p><span id="quantidade-subtotal"></span></p>
+          <p>R$<span id="valor-subtotal"></span></p>
+        </section>
+      </section>
+  </main> 
+</body>
+</html>
