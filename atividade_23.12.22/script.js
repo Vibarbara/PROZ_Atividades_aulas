@@ -11,10 +11,6 @@ const valorItemInfo = {
   valor: 45.90,
 };
 
-//const subtotalInfo = {
-//  valor: 11.66,
-//};
-
 subItens.addEventListener("click", subtrairItem);
 addItens.addEventListener("click", adicionarItem);
 
